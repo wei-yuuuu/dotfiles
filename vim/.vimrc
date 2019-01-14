@@ -171,7 +171,7 @@ set shiftwidth=4
 set expandtab
 
 "" Map leader to ,
-let mapleader=';'
+let mapleader="\<Space>"
 
 "" Enable hidden buffers
 set hidden
@@ -531,7 +531,7 @@ inoremap <M-k> <Esc>:m .-2<CR>==gi
 vnoremap <M-j> :m '>+1<CR>gv=gv
 vnoremap <M-k> :m '<-2<CR>gv=gv
 
-inoremap <leader><leader> <ESC>
+inoremap ;; <ESC>
 "*****************************************************************************
 "" Custom configs
 "*****************************************************************************
