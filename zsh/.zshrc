@@ -115,6 +115,16 @@ export PATH=/Users/weiyu/homebrew/bin:$PATH
 
 alias cls='clear'
 alias vi='vim'
+alias ll='ls -1a'
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+alias deleteDSFiles="find . -name '.DS_Store' -type f -delete"
+alias npm-update='npx npm-check -u'
+alias gmoji='gitmoji -c'
+alias gs='git status'
+
+# Custom functions
+mg () { mkdir "$@" && cd "$@" || exit; }
 
 #  prompt_context() {
 #  if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
