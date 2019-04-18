@@ -1,4 +1,5 @@
 export TERM="xterm-256color"
+export EDITOR='vim'
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -130,6 +131,7 @@ alias deleteDSFiles="find . -name '.DS_Store' -type f -delete"
 alias npm-update='npx npm-check -u'
 alias gmoji='gitmoji -c'
 alias gs='git status'
+alias mux='tmuxinator'
 
 # Custom functions
 mg () { mkdir "$@" && cd "$@" || exit; }
