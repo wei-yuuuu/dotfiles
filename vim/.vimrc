@@ -53,8 +53,12 @@ Plug 'prettier/vim-prettier'
 Plug 'ternjs/tern_for_vim'
 Plug 'matze/vim-move'
 Plug 'myusuf3/numbers.vim'
-Plug 'mxw/vim-jsx'
+Plug 'pangloss/vim-javascript'
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 Plug 'terryma/vim-multiple-cursors'
+Plug 'epilande/vim-es2015-snippets'
+Plug 'epilande/vim-react-snippets'
 if isdirectory('/usr/local/opt/fzf')
   Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
 else
@@ -94,15 +98,8 @@ Plug 'eagletmt/neco-ghc'
 Plug 'dag/vim2hs'
 Plug 'pbrisbin/vim-syntax-shakespeare'
 
-" jsx
-Plug 'mxw/vim-jsx'
-" Allow JSX in .js files
-let g:jsx_ext_required = 0
-let g:jsx_pragma_required = 1
-augroup FiletypeGroup
-    autocmd!
-    au BufNewFile,BufRead *.jsx set filetype=javascript.jsx
-augroup END
+" vim-jsx-pretty
+let g:vim_jsx_pretty_colorful_config = 1
 
 " html
 "" HTML Bundle
@@ -442,8 +439,8 @@ nnoremap <silent> <leader>b :Buffers<CR>
 nnoremap <silent> <leader>e :FZF -m<CR>
 
 " snippets
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsExpandTrigger="<C-l>"
+let g:UltiSnipsJumpForwardTrigger="<C-l>"
 let g:UltiSnipsJumpBackwardTrigger="<c-b>"
 let g:UltiSnipsEditSplit="vertical"
 
