@@ -1,1 +1,0 @@
-/Users/weiyu/.config/nvim/plugins.vim
