@@ -45,7 +45,7 @@ Plug 'Shougo/neosnippet'
 Plug 'Shougo/neosnippet-snippets'
 
 " Print function signatures in echo area
-Plug 'Shougo/echodoc.vim'
+" Plug 'Shougo/echodoc.vim'
 
 " Automatic closing of quotes, parenthesis, brackets, etc
 Plug 'Raimondi/delimitMate'
@@ -96,8 +96,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'kristijanhusak/vim-hybrid-material'
 
 " Customized vim status line
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+Plug 'itchyny/lightline.vim'
 
 " Icons
 Plug 'ryanoasis/vim-devicons'
