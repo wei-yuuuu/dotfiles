@@ -159,8 +159,8 @@ let g:NERDTreeDirArrowCollapsible = '⬎'
 " Hide certain files and directories from NERDTree
 let g:NERDTreeIgnore = ['^\.DS_Store$', '^tags$', '\.git$[[dir]]', '\.idea$[[dir]]', '\.sass-cache$']
 
-" Size
-let g:NERDTreeWinSize = 25
+" NERDTree Size
+let g:NERDTreeWinSize = 23
 
 " Wrap in try/catch to avoid errors on initial install before plugin is available
 try
@@ -287,8 +287,8 @@ hi! Normal ctermbg=NONE guibg=NONE
 hi! NonText ctermbg=NONE guibg=NONE
 hi! LineNr ctermfg=NONE guibg=NONE
 hi! SignColumn ctermfg=NONE guibg=NONE
-hi! StatusLine guifg=#16252b guibg=#6699CC
-hi! StatusLineNC guifg=#16252b guibg=#16252b
+" hi! StatusLine guifg=#16252b guibg=#6699CC
+" hi! StatusLineNC guifg=#16252b guibg=#16252b
 
 " Try to hide vertical spit and end of buffer symbol
 hi! VertSplit gui=NONE guifg=#17252c guibg=#17252c
