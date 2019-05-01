@@ -34,14 +34,8 @@ alias deleteDSFiles='find . -name '.DS_Store' -type f -delete'
 alias npm-update='npx npm-check -u'
 
 ## git aliases
-gc() { git commit -m "$@"; }
 alias gs='git status'
-alias gp='git push'
-alias gf='git fetch'
-alias gpull='git pull'
-alias gd='git diff'
-alias ga='git add'
-alias gm='gitmoji -c'
+alias gmoji='gitmoji -c'
 alias gs='git status'
 
 # Custom functions
