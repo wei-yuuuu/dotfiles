@@ -6,7 +6,7 @@ source ~/.config/nvim/plugins.vim
 " ============================================================================ "
 
 " Remap leader key to ,
-let g:mapleader='\<Space>'
+let g:mapleader=" "
 
 " Disable line numbers
 set nonumber
