@@ -41,7 +41,7 @@ alias gf='git fetch'
 alias gpull='git pull'
 alias gd='git diff'
 alias ga='git add'
-alias gmoji='gitmoji -c'
+alias gm='gitmoji -c'
 alias gs='git status'
 
 # Custom functions
