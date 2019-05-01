@@ -5,7 +5,7 @@ source ~/.config/nvim/plugins.vim
 " ===                           EDITING OPTIONS                            === "
 " ============================================================================ "
 
-" Remap leader key to ,
+" Remap leader key
 let g:mapleader=" "
 
 " Disable line numbers
@@ -159,7 +159,7 @@ let g:NERDTreeDirArrowCollapsible = '⬎'
 " Hide certain files and directories from NERDTree
 let g:NERDTreeIgnore = ['^\.DS_Store$', '^tags$', '\.git$[[dir]]', '\.idea$[[dir]]', '\.sass-cache$']
 
-" NERDTree Size
+" Window size
 let g:NERDTreeWinSize = 23
 
 " Wrap in try/catch to avoid errors on initial install before plugin is available
@@ -376,6 +376,12 @@ nmap <leader>z :JsDoc<CR>
 " Used when you want to paste over something without it getting copied to
 " Vim's default buffer
 vnoremap <leader>p "_dP
+
+" === vim-multiple-cursors ==="
+let g:multi_cursor_use_default_mapping = 0
+let g:multi_cursor_start_word_key      = '<C-d>'
+let g:multi_cursor_next_key            = '<C-d>'
+let g:multi_cursor_quit_key            = '<Esc>'
 
 " ============================================================================ "
 " ===                                 MISC.                                === "
