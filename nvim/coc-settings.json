@@ -5,5 +5,9 @@
   "eslint.filetypes": ["javascript", "typescript", "typescriptreact", "javascriptreact"],
   "diagnostic.errorSign": "•",
   "diagnostic.warningSign": "•",
-  "diagnostic.infoSign": "•"
+  "diagnostic.infoSign": "•",
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.semi": false,
+  "prettier.proseWrap": "always"
 }
