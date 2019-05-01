@@ -207,9 +207,6 @@ catch
   colorscheme slate
 endtry
 
-" Vim airline theme
-let g:airline_theme='hybrid'
-
 " Add custom highlights in method that is executed every time a
 " colorscheme is sourced
 " See https://gist.github.com/romainl/379904f91fa40533175dfaec4c833f2f for
