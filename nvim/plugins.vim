@@ -53,6 +53,9 @@ Plug 'Raimondi/delimitMate'
 " Move lines
 Plug 'matze/vim-move'
 
+" Commentary
+Plug 'tpope/vim-commentary'
+
 " === Git Plugins === "
 " Enable git changes to be shown in sign column
 Plug 'mhinz/vim-signify'
