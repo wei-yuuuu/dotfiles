@@ -1,0 +1,1 @@
+/Users/weiyu/.config/nvim/init.vim
