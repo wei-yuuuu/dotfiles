@@ -160,7 +160,7 @@ let g:NERDTreeDirArrowCollapsible = '⬎'
 let g:NERDTreeIgnore = ['^\.DS_Store$', '^tags$', '\.git$[[dir]]', '\.idea$[[dir]]', '\.sass-cache$']
 
 " Window size
-let g:NERDTreeWinSize = 23
+let g:NERDTreeWinSize = 25
 
 " === Vim airline ==== "
 let g:lightline = {
