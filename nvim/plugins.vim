@@ -56,6 +56,9 @@ Plug 'matze/vim-move'
 " Commentary
 Plug 'tpope/vim-commentary'
 
+" Multiple cursors
+Plug 'terryma/vim-multiple-cursors'
+
 " === Git Plugins === "
 " Enable git changes to be shown in sign column
 Plug 'mhinz/vim-signify'
