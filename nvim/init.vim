@@ -162,7 +162,7 @@ let g:NERDTreeIgnore = ['^\.DS_Store$', '^tags$', '\.git$[[dir]]', '\.idea$[[dir
 " Window size
 let g:NERDTreeWinSize = 25
 
-" === Vim airline ==== "
+" === Vim lightline ==== "
 let g:lightline = {
       \ 'colorscheme': 'jellybeans',
       \ 'active': {
@@ -172,6 +172,8 @@ let g:lightline = {
       \ 'component_function': {
       \   'gitbranch': 'fugitive#head'
       \ },
+      \ 'separator': { 'left': '', 'right': '' },
+      \ 'subseparator': { 'left': '', 'right': '' }
       \ }
 
 " === echodoc === "
