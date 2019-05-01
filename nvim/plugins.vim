@@ -82,6 +82,9 @@ Plug 'othree/javascript-libraries-syntax.vim'
 " Improved syntax highlighting and indentation
 Plug 'othree/yajs.vim'
 
+" Styled Components
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+
 " === UI === "
 " File explorer
 Plug 'scrooloose/nerdtree'
