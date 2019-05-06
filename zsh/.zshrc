@@ -27,6 +27,7 @@ export EDITOR='nvim'
 alias cls='clear'
 alias vim='nvim'
 alias vi='nvim'
+alias v='nvim'
 alias ll='ls -1a'
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
@@ -34,8 +35,6 @@ alias deleteDSFiles='find . -name '.DS_Store' -type f -delete'
 alias npm-update='npx npm-check -u'
 
 ## git aliases
-alias gs='git status'
-alias gmoji='gitmoji -c'
 alias gs='git status'
 
 # Custom functions
