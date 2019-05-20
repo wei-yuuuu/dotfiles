@@ -294,7 +294,7 @@ endfunction
 
 " === Denite shorcuts === "
 "   ;         - Browser currently open buffers
-"   <leader>t - Browse list of files in current directory
+"   <leader>f - Browse list of files in current directory
 "   <leader>g - Search current directory for occurences of given term and
 "   close window if no results
 "   <leader>j - Search current directory for occurences of word under cursor
@@ -311,7 +311,6 @@ call denite#custom#map('insert', '<C-k>', '<denite:move_to_previous_line>', 'nor
 " Toggle NERDTree on/off
 " Opens current file location in NERDTree
 nmap <C-n> :NERDTreeToggle<CR>
-nmap <C-f> :NERDTreeFind<CR>
 
 "   <Space> - PageDown
 "   -       - PageUp
