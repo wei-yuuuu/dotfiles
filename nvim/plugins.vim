@@ -31,7 +31,6 @@ Plug 'rstacruz/vim-closer'
 Plug 'easymotion/vim-easymotion'
 
 " Intellisense Engine
-" Plug 'neoclide/coc.nvim', { 'do': 'yarn install' }
 Plug 'neoclide/coc.nvim', {'tag': '*', 'do': { -> coc#util#install()}}
 
 " Tmux/Neovim movement integration
@@ -43,9 +42,6 @@ Plug 'Shougo/denite.nvim'
 " Snippet support
 Plug 'Shougo/neosnippet'
 Plug 'Shougo/neosnippet-snippets'
-
-" Print function signatures in echo area
-" Plug 'Shougo/echodoc.vim'
 
 " Automatic closing of quotes, parenthesis, brackets, etc
 Plug 'Raimondi/delimitMate'
