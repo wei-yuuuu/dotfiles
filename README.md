@@ -22,4 +22,6 @@ prefix + Ctrl-r - restore
 Ctrl-o + d -> delete selected file
 
 space + f -> search file
+
+m -> insert/delete file in nerd tree
 ```
