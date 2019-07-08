@@ -1,6 +1,6 @@
 scriptencoding utf-8
 source ~/.config/nvim/plugins.vim
-
+let g:python3_host_prog = '/Library/Frameworks/Python.framework/Versions/3.7/bin/python3'
 " ============================================================================ "
 " ===                           EDITING OPTIONS                            === "
 " ============================================================================ "
