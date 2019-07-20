@@ -36,8 +36,8 @@ Plug 'neoclide/coc.nvim', {'tag': '*', 'do': { -> coc#util#install()}}
 " Tmux/Neovim movement integration
 Plug 'christoomey/vim-tmux-navigator'
 
-" Denite - Fuzzy finding, buffer management
-Plug 'Shougo/denite.nvim'
+" Fuzzy finding
+Plug 'junegunn/fzf'
 
 " Snippet support
 Plug 'Shougo/neosnippet'
