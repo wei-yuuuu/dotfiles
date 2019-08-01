@@ -213,11 +213,11 @@ endif
 set mousemodel=popup
 set t_Co=256
 set guioptions=egmrti
-set gfn=Fira\ Code:h12
 
 if has("gui_running")
   if has("gui_mac") || has("gui_macvim")
-    set guifont=Fira\ Code:h12
+    set guifont=FuraCode\ Nerd\ Font:h18
+    colorscheme hybrid_reverse
     set transparency=7
   endif
 else
