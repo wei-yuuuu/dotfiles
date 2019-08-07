@@ -7,9 +7,6 @@ source ~/.config/nvim/plugins.vim
 " Remap leader key
 let g:mapleader=" "
 
-" Disable line numbers
-set nonumber
-
 " Don't show last command
 set noshowcmd
 
@@ -41,6 +38,10 @@ set noruler
 
 " Only one line for command line
 set cmdheight=1
+
+" folding
+set foldmethod=indent
+set foldlevel=99
 
 " === Completion Settings === "
 
@@ -126,16 +127,9 @@ let g:lightline = {
 " Enable echodoc on startup
 let g:echodoc#enable_at_startup = 1
 
-" === vim-javascript === "
-" Enable syntax highlighting for JSDoc
-let g:javascript_plugin_jsdoc = 1
-
 " === vim-jsx === "
 " Highlight jsx syntax even in non .jsx files
 let g:jsx_ext_required = 0
-
-" === javascript-libraries-syntax === "
-let g:used_javascript_libs = 'underscore,react,ramda,d3'
 
 " === Signify === "
 let g:signify_sign_delete = '-'

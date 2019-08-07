@@ -27,9 +27,6 @@ Plug 'ntpeters/vim-better-whitespace'
 " auto-close plugin
 Plug 'rstacruz/vim-closer'
 
-" Improved motion in Vim
-Plug 'easymotion/vim-easymotion'
-
 " Intellisense Engine
 Plug 'neoclide/coc.nvim', {'tag': '*', 'do': { -> coc#util#install()}}
 
@@ -38,10 +35,6 @@ Plug 'christoomey/vim-tmux-navigator'
 
 " Fuzzy finding
 Plug 'junegunn/fzf'
-
-" Snippet support
-Plug 'Shougo/neosnippet'
-Plug 'Shougo/neosnippet-snippets'
 
 " Automatic closing of quotes, parenthesis, brackets, etc
 Plug 'Raimondi/delimitMate'
@@ -55,32 +48,19 @@ Plug 'tpope/vim-commentary'
 " Multiple cursors
 Plug 'terryma/vim-multiple-cursors'
 
+" display the indention levels with thin vertical lines
+Plug 'Yggdroot/indentLine'
+
 " === Git Plugins === "
 " Enable git changes to be shown in sign column
 Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-fugitive'
 
 " === Javascript Plugins === "
-" Typescript syntax highlighting
-Plug 'HerringtonDarkholme/yats.vim'
-
 " ReactJS JSX syntax highlighting
 Plug 'mxw/vim-jsx'
 
-" Generate JSDoc commands based on function signature
-Plug 'heavenshell/vim-jsdoc'
-
 " === Syntax Highlighting === "
-
-" Syntax highlighting for nginx
-Plug 'chr4/nginx.vim'
-
-" Syntax highlighting for javascript libraries
-Plug 'othree/javascript-libraries-syntax.vim'
-
-" Improved syntax highlighting and indentation
-Plug 'othree/yajs.vim'
-
 " Styled Components
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 
