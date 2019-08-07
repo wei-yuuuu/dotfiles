@@ -60,6 +60,9 @@ Plug 'tpope/vim-fugitive'
 " ReactJS JSX syntax highlighting
 Plug 'mxw/vim-jsx'
 
+" Generate JSDoc commands based on function signature
+Plug 'heavenshell/vim-jsdoc'
+
 " === Syntax Highlighting === "
 " Styled Components
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
