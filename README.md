@@ -5,6 +5,12 @@ ln -sf ~/dotfiles/nvim/init.vim ~/.config/nvim/init.vim
 # others also
 ```
 ## plugins
+### coc.nvim
+```
+After update coc-settings.json
+Restart coc server by command :CocRestart
+```
+
 ### tmux
 ```
 prefix(Ctrl-a) + :
@@ -17,10 +23,6 @@ prefix + Ctrl-r - restore
 ```
 ## shortcut
 ```
-; -> select opened file by Ctrl-j/k
-
-Ctrl-o + d -> delete selected file
-
 space + f -> search file
 
 m -> insert/delete file in nerd tree
