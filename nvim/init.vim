@@ -93,6 +93,9 @@ let g:neosnippet#snippets_directory='~/.config/nvim/snippets'
 let g:neosnippet#enable_conceal_markers = 0
 
 " === NERDTree === "
+" Auto-open NERDTree in vim
+au VimEnter *  NERDTree
+
 " Show hidden files/directories
 let g:NERDTreeShowHidden = 1
 
@@ -126,6 +129,10 @@ let g:lightline = {
 " === echodoc === "
 " Enable echodoc on startup
 let g:echodoc#enable_at_startup = 1
+
+" === vim-javascript === "
+" Enable syntax highlighting for JSDoc
+let g:javascript_plugin_jsdoc = 1
 
 " === vim-jsx === "
 " Highlight jsx syntax even in non .jsx files
