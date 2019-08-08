@@ -41,4 +41,7 @@ Ctrl-w (num) > / Ctrl-w (num) < -> resize vsplit window
 
 <Space> -> PageDown
 -       -> PageUp
+
+zc -> close a fold
+zo -> open a fold
 ```
