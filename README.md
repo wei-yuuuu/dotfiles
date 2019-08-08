@@ -28,6 +28,13 @@ source-file ~/.tmux.conf
 prefix + Ctrl-s - save
 prefix + Ctrl-r - restore
 ```
+### zsh
+```
+gst -> take a peek at the diff of each file returned by git status
+
+glo -> take a peek at each file returned by git logs
+```
+
 ## shortcut
 ```
 space + p -> search file
