@@ -34,7 +34,7 @@ Ctrl-w (num) > / Ctrl-w (num) < -> resize vsplit window
 
 <leader>z -> vim-jsdoc 
 
-<leader>h -> Find and replace
+<leader>r -> Find and replace
 <leader>/ -> Claer highlighted search terms while preserving history
 
 <leader>y -> Automatically remove trailing whitespace
@@ -44,4 +44,9 @@ Ctrl-w (num) > / Ctrl-w (num) < -> resize vsplit window
 
 zc -> close a fold
 zo -> open a fold
+
+<leader>t -> tabnew
+<leader>w -> tabclose
+<leader>l -> tabnext
+<leader>h -> tabprev
 ```
