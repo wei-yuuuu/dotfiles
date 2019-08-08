@@ -23,6 +23,11 @@ set expandtab
 " Change number of spaces that a <Tab> counts for during editing ops
 set softtabstop=2
 
+nnoremap <leader>t :tabnew<CR>
+nnoremap <leader>w :tabclose<CR>
+nnoremap <leader>l :tabnext<CR>
+nnoremap <leader>h :tabprev<CR>
+
 " Indentation amount for < and > commands.
 set shiftwidth=2
 
@@ -218,17 +223,17 @@ endfunction
 " ===                             KEY MAPPINGS                             === "
 " ============================================================================ "
 " FZF shorcuts
-nmap <leader>f :FZF<CR>
+nmap <leader>p :FZF<CR>
+let g:fzf_action = {
+  \ 'ctrl-t': 'tab split',
+  \ 'ctrl-x': 'split',
+  \ 'ctrl-v': 'vsplit' }
+
 
 " === Nerdtree shorcuts === "
 " Toggle NERDTree on/off
 " Opens current file location in NERDTree
 nmap <C-n> :NERDTreeToggle<CR>
-
-"   <Space> - PageDown
-"   -       - PageUp
-noremap <Space> <PageDown>
-noremap - <PageUp>
 
 " === coc.nvim === "
 nmap <silent> <leader>dd <Plug>(coc-definition)
@@ -242,12 +247,8 @@ nmap <leader>y :StripWhitespace<CR>
 " === Search shorcuts === "
 "   <leader>h - Find and replace
 "   <leader>/ - Claer highlighted search terms while preserving history
-map <leader>h :%s///<left><left>
+map <leader>r :%s///<left><left>
 nmap <silent> <leader>/ :nohlsearch<CR>
-
-" === Easy-motion shortcuts ==="
-"   <leader>w - Easy-motion highlights first word letters bi-directionally
-map <leader>w <Plug>(easymotion-bd-w)
 
 " Allows you to save files you opened without write permissions via sudo
 cmap w!! w !sudo tee %
