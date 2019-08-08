@@ -51,6 +51,8 @@ Plug 'terryma/vim-multiple-cursors'
 " display the indention levels with thin vertical lines
 Plug 'Yggdroot/indentLine'
 
+" quoting / parenthesizing made simple
+Plug 'tpope/vim-surround'
 " === Git Plugins === "
 " Enable git changes to be shown in sign column
 Plug 'mhinz/vim-signify'
