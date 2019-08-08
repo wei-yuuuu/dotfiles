@@ -23,7 +23,7 @@ prefix + Ctrl-r - restore
 ```
 ## shortcut
 ```
-space + f -> search file
+space + p -> search file
 
 m -> insert/delete file in nerd tree
 i -> a split split 
