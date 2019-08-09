@@ -18,6 +18,7 @@
   "diagnostic.errorSign": "•",
   "diagnostic.warningSign": "•",
   "diagnostic.infoSign": "•",
+  "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
   "prettier.proseWrap": "always"
