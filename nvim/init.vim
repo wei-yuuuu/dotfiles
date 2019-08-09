@@ -28,6 +28,9 @@ nnoremap <leader>w :tabclose<CR>
 nnoremap <leader>l :tabnext<CR>
 nnoremap <leader>h :tabprev<CR>
 
+" save file
+nnoremap <leader>s :w<CR>
+
 " Indentation amount for < and > commands.
 set shiftwidth=2
 
