@@ -17,6 +17,10 @@ Ctrl-t -> tab split
 Ctrl-x -> split
 Ctrl-v -> vsplit
 ```
+### nerdtree 
+```
+shift + ? -> quickhelp
+```
 
 ### tmux
 ```
