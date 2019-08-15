@@ -84,6 +84,9 @@ function! s:show_documentation()
   endif
 endfunction
 
+" To enable highlight current symbol on CursorHold
+set updatetime=100
+autocmd CursorHold * silent call CocActionAsync('highlight')
 
 " Close preview window when completion is done.
 autocmd! CompleteDone * if pumvisible() == 0 | pclose | endif
@@ -198,6 +201,7 @@ hi! EndOfBuffer ctermbg=NONE ctermfg=NONE guibg=#17252c guifg=#17252c
 
 " Customize NERDTree directory
 hi! NERDTreeCWD guifg=#99c794
+hi! link NERDTreeFlags NERDTreeDir
 
 " Make background color transparent for git changes
 hi! SignifySignAdd guibg=NONE
@@ -231,7 +235,6 @@ let g:fzf_action = {
   \ 'ctrl-t': 'tab split',
   \ 'ctrl-x': 'split',
   \ 'ctrl-v': 'vsplit' }
-
 
 " === Nerdtree shorcuts === "
 " Toggle NERDTree on/off
