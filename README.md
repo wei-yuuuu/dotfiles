@@ -20,6 +20,10 @@ Ctrl-v -> vsplit
 ### nerdtree 
 ```
 shift + ? -> quickhelp
+
+m -> insert/delete file in nerd tree
+i -> a split split 
+s -> a vertical split
 ```
 
 ### tmux
@@ -42,10 +46,6 @@ glo -> take a peek at each file returned by git logs
 ## shortcut
 ```
 space + p -> search file
-
-m -> insert/delete file in nerd tree
-i -> a split split 
-s -> a vertical split
 
 Ctrl-w (num) + / Ctrl-w (num) - -> resize split window
 Ctrl-w (num) > / Ctrl-w (num) < -> resize vsplit window
