@@ -45,7 +45,11 @@ fzf-history-widget-accept() {
 zle     -N     fzf-history-widget-accept
 bindkey '^X^R' fzf-history-widget-accept
 
-export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border --extended'
+export FZF_DEFAULT_OPTS='
+  --height 40% --layout=reverse --border --extended
+  --color fg:242,bg:233,hl:65,fg+:15,bg+:234,hl+:108
+  --color info:108,prompt:109,spinner:108,pointer:168,marker:168
+'
 export FZF_CTRL_R_OPTS="--preview 'echo {}' --preview-window down:3:hidden:wrap --bind '?:toggle-preview'"
 
 is_in_git_repo() {
