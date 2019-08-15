@@ -2,6 +2,7 @@
   "suggest.echodocSupport": true,
   "suggest.maxCompleteItemCount": 20,
   "tsserver.trace.server": "verbose",
+  "coc.preferences.colorSupport": false,
   "coc.preferences.formatOnSaveFiletypes": [
     "javascript",
     "typescript",
