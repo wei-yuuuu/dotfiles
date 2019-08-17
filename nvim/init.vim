@@ -251,7 +251,7 @@ nmap <silent> <leader>dj <Plug>(coc-implementation)
 nmap <leader>y :StripWhitespace<CR>
 
 " === Search shorcuts === "
-"   <leader>h - Find and replace
+"   <leader>r - Find and replace
 "   <leader>/ - Claer highlighted search terms while preserving history
 map <leader>r :%s///<left><left>
 nmap <silent> <leader>/ :nohlsearch<CR>
