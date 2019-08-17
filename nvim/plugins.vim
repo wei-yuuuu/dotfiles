@@ -36,9 +36,6 @@ Plug 'christoomey/vim-tmux-navigator'
 " Fuzzy finding
 Plug 'junegunn/fzf'
 
-" Automatic closing of quotes, parenthesis, brackets, etc
-Plug 'Raimondi/delimitMate'
-
 " Move lines
 Plug 'matze/vim-move'
 
@@ -68,6 +65,9 @@ Plug 'heavenshell/vim-jsdoc'
 " === Syntax Highlighting === "
 " Styled Components
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+
+" JavaScript syntax highlighting and improved indentation.
+Plug 'pangloss/vim-javascript'
 
 " === UI === "
 " File explorer
