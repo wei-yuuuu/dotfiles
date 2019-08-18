@@ -25,7 +25,7 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'ntpeters/vim-better-whitespace'
 
 " auto-close plugin
-Plug 'rstacruz/vim-closer'
+Plug 'jiangmiao/auto-pairs'
 
 " Intellisense Engine
 Plug 'neoclide/coc.nvim', {'tag': '*', 'do': { -> coc#util#install()}}
