@@ -24,8 +24,11 @@ call plug#begin('~/.config/nvim/plugged')
 " Trailing whitespace highlighting & automatic fixing
 Plug 'ntpeters/vim-better-whitespace'
 
-" auto-close plugin
+" Auto-close plugin
 Plug 'jiangmiao/auto-pairs'
+
+" Closetag plugin
+Plug 'alvan/vim-closetag'
 
 " Intellisense Engine
 Plug 'neoclide/coc.nvim', {'tag': '*', 'do': { -> coc#util#install()}}

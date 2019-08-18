@@ -143,6 +143,18 @@ let g:jsx_ext_required = 0
 " === Signify === "
 let g:signify_sign_delete = '-'
 
+" === vim-closetag === "
+let g:closetag_filenames = "*.html,*.jsx,*.js"
+let g:closetag_xhtml_filenames = '*.jsx'
+let g:closetag_emptyTags_caseSensitive = 1
+let g:closetag_shortcut = '>'
+let g:closetag_close_shortcut = '<leader>>'
+
+let g:closetag_regions =  {
+\ 'typescript.tsx': 'jsxRegion,tsxRegion',
+\ 'javascript.jsx': 'jsxRegion',
+\ }
+
 " ============================================================================ "
 " ===                                UI                                    === "
 " ============================================================================ "
