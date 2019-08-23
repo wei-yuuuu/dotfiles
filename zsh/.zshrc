@@ -45,6 +45,8 @@ fzf-history-widget-accept() {
 zle     -N     fzf-history-widget-accept
 bindkey '^X^R' fzf-history-widget-accept
 
+export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
+
 export FZF_DEFAULT_OPTS='
   --height 40% --layout=reverse --border --extended
   --color fg:242,bg:233,hl:65,fg+:15,bg+:234,hl+:108
