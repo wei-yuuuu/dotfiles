@@ -104,6 +104,9 @@ let g:NERDTreeShowHidden = 1
 " Remove bookmarks and help text from NERDTree
 let g:NERDTreeMinimalUI = 1
 
+" Automatically close NERDTree after a file has been opened
+let NERDTreeQuitOnOpen=1
+
 " Custom icons for expandable/expanded directories
 let g:NERDTreeDirArrowExpandable = '⬏'
 let g:NERDTreeDirArrowCollapsible = '⬎'
