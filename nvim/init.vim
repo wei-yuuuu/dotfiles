@@ -12,6 +12,7 @@ set noshowcmd
 
 " Yank and paste with the system clipboard
 set clipboard=unnamed
+noremap YY "+y<CR>
 
 " Hides buffers instead of closing them
 set hidden
