@@ -64,4 +64,11 @@ zo -> open a fold
 <leader>w -> tabclose
 <leader>l -> tabnext
 <leader>h -> tabprev
+
+// External grep
+:grep -r xxx *
+:copen
+
+// Find and Replace
+:%s/pattern/replace/g
 ```
