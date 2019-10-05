@@ -35,8 +35,9 @@ nnoremap <leader>s :w<CR>
 " Indentation amount for < and > commands.
 set shiftwidth=2
 
-" do not wrap long lines by default
-set nowrap
+" wrap long lines
+set wrap
+set linebreak
 
 " Don't highlight current cursor line
 set nocursorline
@@ -44,6 +45,12 @@ set nocursorline
 " Disable line/column number in status line
 " Shows up in preview window when airline is disabled if not
 set noruler
+
+" Set scrolloff value
+set scrolloff=3
+
+" Show command
+set showcmd
 
 " Only one line for command line
 set cmdheight=1
