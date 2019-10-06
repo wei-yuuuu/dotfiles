@@ -335,3 +335,6 @@ endif
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
+
+" Delete whitespace when saving files
+autocmd BufWritePre * :%s/\s\+$//e
