@@ -21,9 +21,6 @@ endif
 call plug#begin('~/.config/nvim/plugged')
 
 " === Editing Plugins === "
-" Trailing whitespace highlighting & automatic fixing
-Plug 'ntpeters/vim-better-whitespace'
-
 " Auto-close plugin
 Plug 'jiangmiao/auto-pairs'
 
@@ -54,9 +51,8 @@ Plug 'Yggdroot/indentLine'
 " quoting / parenthesizing made simple
 Plug 'tpope/vim-surround'
 " === Git Plugins === "
-" Enable git changes to be shown in sign column
+" Show a diff using Vim its sign column
 Plug 'mhinz/vim-signify'
-Plug 'tpope/vim-fugitive'
 
 " === Javascript Plugins === "
 " ReactJS JSX syntax highlighting
@@ -85,9 +81,6 @@ Plug 'itchyny/lightline.vim'
 " Icons
 Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-
-" Numbers
-Plug 'myusuf3/numbers.vim'
 
 " Initialize plugin system
 call plug#end()
