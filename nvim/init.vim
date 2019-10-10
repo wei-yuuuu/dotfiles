@@ -225,6 +225,9 @@ hi! EndOfBuffer ctermbg=NONE ctermfg=NONE guibg=#17252c guifg=#17252c
 hi! NERDTreeCWD guifg=#99c794
 hi! link NERDTreeFlags NERDTreeDir
 
+" Follow NERDTree's current directory
+let NERDTreeChDirMode = 2
+
 " Make background color transparent for git changes
 hi! SignifySignAdd guibg=NONE
 hi! SignifySignDelete guibg=NONE
