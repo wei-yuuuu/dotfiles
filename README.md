@@ -4,6 +4,11 @@
 ln -sf ~/dotfiles/nvim/init.vim ~/.config/nvim/init.vim
 # others also
 ```
+activate current vim file
+```
+source %
+```
+
 ## plugins
 ### coc.nvim
 ```
