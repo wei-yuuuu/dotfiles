@@ -255,7 +255,7 @@ endfunction
 " ===                             KEY MAPPINGS                             === "
 " ============================================================================ "
 " FZF shorcuts
-nmap <leader>p :FZF<CR>
+nnoremap <leader>p :FZF<CR>
 let g:fzf_action = {
   \ 'ctrl-t': 'tab split',
   \ 'ctrl-x': 'split',
@@ -264,34 +264,23 @@ let g:fzf_action = {
 " === Nerdtree shorcuts === "
 " Toggle NERDTree on/off
 " Opens current file location in NERDTree
-nmap <C-n> :NERDTreeToggle<CR>
+nnoremap <C-n> :NERDTreeToggle<CR>
 
 " === coc.nvim === "
-nmap <silent> <leader>dd <Plug>(coc-definition)
-nmap <silent> <leader>dr <Plug>(coc-references)
-nmap <silent> <leader>dj <Plug>(coc-implementation)
-
-" === vim-better-whitespace === "
-"   <leader>y - Automatically remove trailing whitespace
-nmap <leader>y :StripWhitespace<CR>
+nnoremap <silent> <leader>dd <Plug>(coc-definition)
+nnoremap <silent> <leader>dr <Plug>(coc-references)
+nnoremap <silent> <leader>dj <Plug>(coc-implementation)
 
 " === Search shorcuts === "
 "   <leader>r - Find and replace
 "   <leader>/ - Claer highlighted search terms while preserving history
-map <leader>r :%s///<left><left>
-nmap <silent> <leader>/ :nohlsearch<CR>
-
-" Allows you to save files you opened without write permissions via sudo
-cmap w!! w !sudo tee %
+nnoremap <leader>r :%s///<left><left>
+nnoremap <silent> <leader>/ :nohlsearch<CR>
+nnoremap <Leader>a :Ack<Space>
 
 " === vim-jsdoc shortcuts ==="
 " Generate jsdoc for function under cursor
-nmap <leader>z :JsDoc<CR>
-
-" Delete current visual selection and dump in black hole buffer before pasting
-" Used when you want to paste over something without it getting copied to
-" Vim's default buffer
-vnoremap <leader>p "_dP
+nnoremap <leader>z :JsDoc<CR>
 
 " === vim-multiple-cursors ==="
 let g:multi_cursor_use_default_mapping = 0
