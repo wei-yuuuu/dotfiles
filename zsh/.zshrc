@@ -1,7 +1,8 @@
 # Path to your oh-my-zsh installation
 export ZSH=$HOME/.oh-my-zsh
+export LANG=en_US.UTF-8
 
-#Name of the theme to load
+#ame of the theme to load
 ZSH_THEME="spaceship"
 
 # Enable command auto-correction.
