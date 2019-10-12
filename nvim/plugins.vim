@@ -45,11 +45,15 @@ Plug 'tpope/vim-commentary'
 " Multiple cursors
 Plug 'terryma/vim-multiple-cursors'
 
-" display the indention levels with thin vertical lines
+" Display the indention levels with thin vertical lines
 Plug 'Yggdroot/indentLine'
 
-" quoting / parenthesizing made simple
+" Quoting / Parenthesizing made simple
 Plug 'tpope/vim-surround'
+
+" A replacement for 99% of the uses of grep
+Plug 'mileszs/ack.vim'
+
 " === Git Plugins === "
 " Show a diff using Vim its sign column
 Plug 'mhinz/vim-signify'
