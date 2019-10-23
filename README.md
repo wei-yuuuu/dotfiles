@@ -34,7 +34,7 @@ s -> a vertical split
 ### tmux
 ```
 prefix(Ctrl-a) + :
-source-file ~/.tmux.conf
+tmux source-file ~/.tmux.conf
 ```
 - tmux-resurrect
 ```
