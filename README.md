@@ -78,3 +78,8 @@ q         -> quit
 // Find and Replace
 <leader>r -> :%s/pattern/replace/g
 ```
+
+## vscode vim plugins move problem
+```
+defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false
+```
