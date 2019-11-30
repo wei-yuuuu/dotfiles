@@ -8,6 +8,10 @@ activate current vim file
 ```
 source %
 ```
+git command behaves like `less`
+```
+git config --global --replace-all core.pager "less -F -X"
+```
 
 ## plugins
 ### coc.nvim
