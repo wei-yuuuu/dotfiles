@@ -2,11 +2,11 @@
 export ZSH=$HOME/.oh-my-zsh
 export LANG=en_US.UTF-8
 
-#ame of the theme to load
+# Theme
 ZSH_THEME="spaceship"
 
-# Enable command auto-correction.
-ENABLE_CORRECTION="true"
+# Command auto-correction.
+ENABLE_CORRECTION="false"
 
 # Display red dots whilst waiting for completion.
 COMPLETION_WAITING_DOTS="true"
@@ -14,7 +14,7 @@ COMPLETION_WAITING_DOTS="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Add wisely, as too many plugins slow down shell startup
-plugins=(git node brew tmux)
+plugins=(git node brew tmux zsh-autosuggestions)
 
 # User configuration
 # Hide user@hostname if it's expected default user

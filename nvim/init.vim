@@ -104,7 +104,7 @@ let g:neosnippet#enable_conceal_markers = 0
 
 " === NERDTree === "
 " Auto-open NERDTree in vim
-au VimEnter *  NERDTree
+" au VimEnter *  NERDTree
 
 " Show hidden files/directories
 let g:NERDTreeShowHidden = 1
