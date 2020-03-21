@@ -87,3 +87,6 @@ q         -> quit
 ```
 defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false
 ```
+
+## iterm2
+[Remapping iTerm 2's shortcut for clear buffer](https://superuser.com/questions/1154896/remapping-iterm-2s-shortcut-for-clear-buffer)
