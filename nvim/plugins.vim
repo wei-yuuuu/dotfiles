@@ -21,9 +21,6 @@ endif
 call plug#begin('~/.config/nvim/plugged')
 
 " === Editing Plugins === "
-" Auto-close plugin
-Plug 'jiangmiao/auto-pairs'
-
 " Closetag plugin
 Plug 'alvan/vim-closetag'
 

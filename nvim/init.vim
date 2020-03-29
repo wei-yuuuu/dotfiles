@@ -288,6 +288,10 @@ let g:multi_cursor_start_word_key      = '<C-d>'
 let g:multi_cursor_next_key            = '<C-d>'
 let g:multi_cursor_quit_key            = '<Esc>'
 
+" === coc-pairs === "
+" Insert line when <CR> is pressed
+inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+
 " ============================================================================ "
 " ===                                 MISC.                                === "
 " ============================================================================ "
