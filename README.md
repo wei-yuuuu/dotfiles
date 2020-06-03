@@ -22,17 +22,17 @@ Restart coc server by command :CocRestart
 
 ### fzf
 ```
-Ctrl-t -> tab split
-Ctrl-x -> split
-Ctrl-v -> vsplit
+Ctrl-t (tab split)
+Ctrl-x (split)
+Ctrl-v (vsplit)
 ```
 ### nerdtree 
 ```
-shift + ? -> quickhelp
+shift + ? (quickhelp)
 
-m -> insert/delete file in nerd tree
-i -> a split split 
-s -> a vertical split
+m (insert/delete file in nerd tree)
+i (a split split) 
+s (a vertical split)
 ```
 
 ### tmux
@@ -40,39 +40,48 @@ s -> a vertical split
 prefix(Ctrl-a) + :
 tmux source-file ~/.tmux.conf
 ```
+- tpm
+```
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+prefix(Ctrl-a) + I (install plugin)
+prefix(Ctrl-a) + U (update plugin)
+prefix(Ctrl-a) + alt + u (delete plugin)
+```
+
 - tmux-resurrect
 ```
-prefix + Ctrl-s - save
-prefix + Ctrl-r - restore
+prefix + Ctrl-s (save)
+prefix + Ctrl-r (restore)
 ```
 ### zsh
 ```
-gst -> take a peek at the diff of each file returned by git status
+gst (take a peek at the diff of each file returned by git status)
 
-glo -> take a peek at each file returned by git logs
+glo (take a peek at each file returned by git logs)
 ```
 
 ## shortcut
 ```
-space + p -> search file
+space + p (search file)
 
-Ctrl-w (num) + / Ctrl-w (num) - -> resize split window
-Ctrl-w (num) > / Ctrl-w (num) < -> resize vsplit window
+Ctrl-w (num) + / Ctrl-w (num) - (resize split window)
+Ctrl-w (num) > / Ctrl-w (num) < (resize vsplit window)
 
-<leader>z -> vim-jsdoc 
+<leader>z (vim-jsdoc) 
 
-<leader>r -> Find and replace
-<leader>/ -> Claer highlighted search terms while preserving history
+<leader>r (find and replace)
+<leader>/ (claer highlighted search terms while preserving history)
 
-<leader>y -> Automatically remove trailing whitespace
+<leader>y (automatically remove trailing whitespace)
 
-zc -> close a fold
-zo -> open a fold
+zc (close a fold)
+zo (open a fold)
 
-<leader>t -> tabnew
-<leader>w -> tabclose
-<leader>l -> tabnext
-<leader>h -> tabprev
+<leader>t (tabnew)
+<leader>w (tabclose)
+<leader>l (tabnext)
+<leader>h (tabprev)
 
 // External grep
 <leader>a -> :grep -r xxx *
